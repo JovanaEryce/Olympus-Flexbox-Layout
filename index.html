@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Olympus Flexbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <div class="brand__logo">
+                    <img src="img/logo.png" alt="olympus-logo" />
+                </div>
+                <div class="brand__name">
+                    <a href="index.html">
+                        <span class="brand__name--title">Olympus</span>
+                        <span class="brand__name--subtitle">social network</span>
+                    </a>
+                </div>
+            </div>
+            <div class="menu topnav" id="nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Profile
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown__content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Forums
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="mega-menu dropdown__content" aria-hidden="true" role="menu">
+                                <div class="mega__menu--wrapper">
+                                    <div class="nav-column">
+                                        <h3>
+                                            <a href="#" class="active__border">Main Links</a>
+                                        </h3>
+                                        <ul>
+                                            <li role="menuitem">
+                                                <a href="#">Item 1</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 2</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 3</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 4</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 5</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 6</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 7</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-column">
+                                        <h3>
+                                            <a href="#" class="active__border">Boddy Press</a>
+                                        </h3>
+                                        <ul>
+                                            <li role="menuitem">
+                                                <a href="#">Item 1</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 2</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 3</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-column">
+                                        <h3>
+                                            <a href="#" class="active__border">Corporate</a>
+                                        </h3>
+                                        <ul>
+                                            <li role="menuitem">
+                                                <a href="#">Item 1</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 2</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 3</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 4</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 5</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-column">
+                                        <h3>
+                                            <a href="#" class="active__border">Forums</a>
+                                        </h3>
+                                        <ul>
+                                            <li role="menuitem">
+                                                <a href="#">Item 1</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 2</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 3</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 4</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a href="#">Item 5</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--End Wrapper-->
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="toggle">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__shop dropdown">
+                        <button class="dropbtn">
+                            <i class="fa fa-shopping-bag"></i>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+            </div><!--End Menu-->
+            </div>
+            <!--End Container-->
+    </header>
+    <!--MAIN-->
+    <main>
+        <div class="container">
+            <section class="content__wrapper">
+                <h1>Welcome to the Biggest Social
+                    <br> Network in the World</h1>
+                <p>We are the best and biggest social network with 5 billion active users all around the world.
+                    <br> Share you thoughts, write blog posts, show your favourite music via Stopify, earn badges and much more!
+                </p>
+                <a href="#" type="button">
+                    <span>Register now!</span>
+                </a>
+            </section>
+            <section class="worko-tabs">
+                <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+                <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+
+                <div class="tabs flex-tabs">
+                    <div class="label__wrapp">
+                        <label for="tab-one" id="tab-one-label" class="tab">
+                            <i class="fa fa-power-off"></i>
+                        </label>
+                        <label for="tab-two" id="tab-two-label" class="tab">
+                            <i class="fa fa-power-off rotate"></i>
+                        </label>
+                    </div>
+                    <div id="tab-one-panel" class="panel active">
+                        <div class="panel__title">
+                            <h4>Register to Olympus</h4>
+                        </div>
+                        <div class="panel__register--form">
+                            <form action="/action_page.php">
+                                <div class="input__wrap">
+                                    <input type="text" id="fname" name="firstname" placeholder="First name">
+                                    <input type="text" id="lname" name="lastname" placeholder="Last name">
+                                </div>
+                                <input type="text" id="email" name="email" placeholder="Your email">
+                                <input type="text" id="password" name="password" placeholder="Your password">
+                                <input type="date" name="bday">
+                                <i class="fas fa-calendar-alt"></i>
+                                <select id="genger" name="genger">
+                                    <option value="Your genger">Your genger</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <label class="register__label">
+                                    <input type="checkbox">I accept the
+                                    <a href="#">Terms and Conditions</a> of the website
+                                    <span class="checkmark"></span>
+                                </label>
+                                <input type="submit" value="Complete Registration!">
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tab-two-panel" class="panel">
+                        <div class="panel__title">
+                            <h4>Login to your Account</h4>
+                        </div>
+                        <div class="panel__register--form">
+                            <form action="/action_page.php">
+                                <input type="text" id="email" name="email" placeholder="Your email">
+                                <input type="text" id="password" name="password" placeholder="Your password">
+
+                                <label class="login__label">
+                                    <span>
+                                        <input type="checkbox"> Remember Me
+                                        <span class="checkmark"></span>
+                                    </span>
+                                    <a href="#">Forgot my password</a>
+                                </label>
+                                <a class="button expanded login" href="#">Login</a>
+                                <div class="or"></div>
+                                <a class="button expanded facebook" href="#">
+                                    <i class="fa fa-facebook-f"></i>Login with Facebook</a>
+                                <a class="button expanded twitter" href="#">
+                                    <i class="fa fa-twitter"></i>
+
+                                    Login with Twitter</a>
+                                <p>Don’t you have an account?
+                                    <a href="#">Register Now!</a> it’s really simple and you can start enjoing all the benefits!</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
